@@ -1,0 +1,461 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.header{
+    width: 100%;
+    height: 1024px;
+    background-color: black;
+    background: #183E43;
+}
+
+.container {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+    margin-bottom: 100px;
+}
+
+.logo{
+left: 28px;
+top: 38px;
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1;
+}
+
+.logo span{
+color: rgba(133, 204, 255, 1);
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav__item {
+margin-right: 50px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {
+color: white;
+text-decoration: none;
+font-size: 16px;
+font-weight: 700;
+line-height: 1;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-desk {
+    width: 890px;
+    padding-top: 90;
+}
+
+.header__title {
+color: white;
+font-weight: 700;
+font-size: 50px;
+line-height: 1.5px;
+margin-bottom: 100px;
+}
+
+
+.header__text {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 52px;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.header__btn {
+    display: inline-block;
+    
+height: 109px;
+padding-left: 45px;
+padding-right: 45px;
+
+border-radius: 170px;
+background: rgba(191, 163, 28, 1);
+
+
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 109px;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.header-photo {
+    width: 404px;
+    height: 572;
+}
+
+
+
+.fb {
+    color: white;
+    position: absolute;
+width: 200px;
+height: 200px;
+left: 103px;
+top: 700px;
+
+background: url(image.png);
+}
+
+.inst {
+    color: white;
+    position: absolute;
+width: 200px;
+height: 200px;
+left: 150px;
+top: 700px;
+
+background: url(image.png);
+
+}
+  
+.tw {
+    color: white;
+    position: absolute;
+width: 200px;
+height: 200px;
+left: 200px;
+top: 700px;
+}
+
+
+.page2 {
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FABD1F;
+padding-top: 25px;
+padding-right: 100px;
+}
+
+
+
+
+.xxx {
+color: white;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+width: 1010px;
+height: 888px;
+left: 35px;
+top: 97px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+}
+
+.page2 {
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+background:  #FABD1F;
+padding-top: 25px;
+padding-right: 100px;
+}
+.text2 {
+    position: absolute;
+width: 1041px;
+height: 450px;
+left: 52px;
+top: 138px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+margin-right: 10px;
+
+font-family: Oswald;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+
+color: #000000;
+}
+
+.page3 {
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+background:rgba(250, 242, 67, 1);
+padding-top: 25px;
+padding-right: 100px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+}
+
+.page4 {
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+background: rgba(35, 193, 155, 1);
+padding-top: 25px;
+padding-right: 100px;
+}
+
+.poem1 {
+    position: absolute;
+width: 148px;
+height: 550px;
+left: 47px;
+top: 103px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+}
+
+.poem2 {
+    position: absolute;
+width: 170px;
+height: 374px;
+left: 293px;
+top: 125px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+}
+
+.poem3 {
+    position: absolute;
+width: 176px;
+height: 484px;
+left: 603px;
+top: 107px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+}
+
+.poem4 {
+    position: absolute;
+    width: 178px;
+    height: 484px;
+    left: 932px;
+    top: 107px;
+    
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    
+    color: #000000;
+    
+
+}
+
+.poem5 {
+    position: absolute;
+width: 185px;
+height: 748px;
+left: 1250px;
+top: 89px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+
+}
+
+.imgbio {
+    position: absolute;
+width: 408px;
+height: 286px;
+left: 1045px;
+top: 97px;
+
+background: url(image.png);
+}
+
+.insta {
+    position: absolute;
+    left: 108px;
+top: 700px;
+
+}
+
+.twiter {
+    position: absolute;
+    left: 180px;
+top: 700px;
+}
+   
+
+.you {
+    position: absolute;
+    left: 236px;
+top: 700px;
+}
+
+.face {
+    position: absolute;
+    
+}
+
+.page8 {
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+background:rgba(26, 154, 182, 1);
+padding-top: 25px;
+padding-right: 100px;
+
+}
+
+.mal {
+    position: absolute;
+    width: 531px;
+    height: 390px;
+    left: 0px;
+    top: 219px;
+    
+    background: url(image.png);
+}
+
+.mal1 {
+    position: absolute;
+width: 531px;
+height: 390px;
+left: 930px;
+top: 250px;
+
+background: url(image.png);
+}
+
+.mal2 {
+    position: absolute;
+width: 576px;
+height: 415px;
+left: 432px;
+top: 609px;
+
+background: url(image.png);
+}
+
+.ab {
+    color: white;
+}
+
+.text1 {
+    position: absolute;
+width: 157px;
+height: 59px;
+left: 153px;
+top: 609px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 59px;
+
+color: #FFFFFF;
+}
+
+.textre {
+    position: absolute;
+width: 335px;
+height: 59px;
+left: 555px;
+top: 561px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 59px;
+
+color: #FFFFFF;
+}
+
+.textxx {
+    position: absolute;
+width: 318px;
+height: 59px;
+left: 1103px;
+top: 700px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 59px;
+
+color: #FFFFFF;
+}
